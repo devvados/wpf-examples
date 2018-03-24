@@ -1,0 +1,16 @@
+﻿<Window x:Class="Rectangles.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Rectangles"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="500" Width="800">
+    <Grid>
+        <Canvas x:Name="canvas" Background="Transparent" Margin="0,24,0,0"/>
+        <Menu x:Name="menu" HorizontalAlignment="Left" Height="25" Margin="0,-1,0,0" VerticalAlignment="Top" Width="792">
+            <MenuItem Header="Рисовать по щелчку" Height="25" Width="182" Click="MenuItem_Click"/>
+            <MenuItem Header="Случайные прямоугольники" Width="182" Click="MenuItem_Click_1"/>
+        </Menu>
+    </Grid>
+</Window>

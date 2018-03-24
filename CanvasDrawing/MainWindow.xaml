@@ -1,0 +1,36 @@
+﻿<Window Name="wnd" x:Class="WpfApplication2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApplication2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Canvas Name="canvas" Background="Blue" HorizontalAlignment="Left" Width="517" MouseDown="canvas_MouseDown">
+            <Line Name="line" X1="40" X2="280" Y1="15" Y2="200" Stroke="Brown" StrokeThickness="4" Height="200" Width="292" Canvas.Left="149" Canvas.Top="10"></Line>
+            <Rectangle Name="neololo" Width="60" Height="80" Canvas.Top="20" Canvas.Left="33" Stroke="Chocolate" 
+                       StrokeThickness="3" RadiusX="30" RadiusY="50" Opacity="1">
+                <Rectangle.Fill>
+                    <LinearGradientBrush StartPoint="0,0.5" EndPoint="1,0.5">
+                        <GradientStop Color="Red" Offset="0"></GradientStop>
+                        <GradientStop Color="Yellow" Offset="0.5"></GradientStop>
+                        <GradientStop Color="Green" Offset="0.75"></GradientStop>
+                        <GradientStop Color="Violet" Offset="1"></GradientStop>
+                    </LinearGradientBrush>
+                </Rectangle.Fill>
+            </Rectangle>
+            <Rectangle Name="ololo" Width="252" Height="80" Canvas.Top="192" Canvas.Left="33" Stroke="Chocolate" 
+                       StrokeThickness="3" RadiusX="30" RadiusY="50" Opacity="1">
+                <Rectangle.Fill>
+                    <LinearGradientBrush StartPoint="0,0.5" EndPoint="1,0.5">
+                        <GradientStop Color="Red" Offset="0"></GradientStop>
+                        <GradientStop Color="Yellow" Offset="0.5"></GradientStop>
+                        <GradientStop Color="Green" Offset="0.75"></GradientStop>
+                        <GradientStop Color="Violet" Offset="1"></GradientStop>
+                    </LinearGradientBrush>
+                </Rectangle.Fill>
+            </Rectangle>
+        </Canvas>
+    </Grid>
+</Window>

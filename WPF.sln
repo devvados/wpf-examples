@@ -11,8 +11,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlsCreate", "ControlsC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DialogLab", "DialogLab\DialogLab.csproj", "{436F0C5C-91AE-46D7-98E2-E7153FB364CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dmitriev", "Dmitriev\Dmitriev.csproj", "{82A8D1C6-B5D5-4D6E-92B7-3A8AEC937309}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrawingEvents", "DrawingEvents\DrawingEvents.csproj", "{A773EA43-D0A5-434A-921A-BE142534D557}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generic", "Generic\Generic.csproj", "{5699F327-D61E-4436-89CB-2F50356B3D07}"
@@ -49,10 +47,6 @@ Global
 		{436F0C5C-91AE-46D7-98E2-E7153FB364CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{436F0C5C-91AE-46D7-98E2-E7153FB364CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{436F0C5C-91AE-46D7-98E2-E7153FB364CE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{82A8D1C6-B5D5-4D6E-92B7-3A8AEC937309}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{82A8D1C6-B5D5-4D6E-92B7-3A8AEC937309}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{82A8D1C6-B5D5-4D6E-92B7-3A8AEC937309}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{82A8D1C6-B5D5-4D6E-92B7-3A8AEC937309}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A773EA43-D0A5-434A-921A-BE142534D557}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A773EA43-D0A5-434A-921A-BE142534D557}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A773EA43-D0A5-434A-921A-BE142534D557}.Release|Any CPU.ActiveCfg = Release|Any CPU
